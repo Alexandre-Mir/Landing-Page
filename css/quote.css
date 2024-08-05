@@ -1,0 +1,21 @@
+.quote {
+  background-color: var(--secondary-color);
+  padding: 5em 10em;
+  display: flex;
+  justify-content: center;
+}
+
+.quote__text {
+  width: 70%;
+  color: var(--dark-bg);
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.quote__author {
+  font-weight: 600;
+  font-size: 18px;
+  float: right;
+  margin: 30px 40px 0 0;
+}
